@@ -1,0 +1,77 @@
+    1  cd /terraform/
+    2  curl https://apt.releases.hashicorp.com/gpg | gpg — dearmor > hashicorp.gpg
+    3  exit
+    4  mkdir /git
+    5  cd /git/
+    6  history
+    7  cd /tmp/
+    8  ll
+    9  cd /git/
+   10  ll
+   11  vim 1.txt
+   12  vim 2.tf
+   13  mv 1.txt 1.tf
+   14  cat 1.tf 
+   15  cd /terraform/
+   16  ll
+   17  cat main.tf 
+   18  mkdir New
+   19  cp main.tf terraform.tfvars variable.tf New/
+   20  ll
+   21  mv main.tf terraform.tfvars variable.tf New/
+   22  cp /git/1.tf .
+   23  mv 1.tf main.tf
+   24  cat main.tf 
+   25  clear
+   26  cat main.tf 
+   27  terraform status
+   28  terraform state
+   29  terraform list
+   30  clear
+   31  cat main.tf 
+   32  ll
+   33  vim main.tf 
+   34  terraform init
+   35  terraform plan
+   36  vim main.tf 
+   37  terraform init
+   38  terraform plan
+   39  terraform apply
+   40  vim main.tf 
+   41  terraform plan
+   42  terraform apply
+   43  vim main.tf 
+   44  terraform plan
+   45  terraform apply
+   46  terraform destroy
+   47  ll
+   48  cd New/
+   49  ll
+   50  cat main.tf 
+   51  cat terraform.tfvars 
+   52  cat variable.tf 
+   53  terraform init
+   54  terraform plan
+   55  clear
+   56  cd /
+   57  ll
+   58  cd git/
+   59  clear
+   60  git init
+   61  git status
+   62  ll
+   63  git add .
+   64  cleear
+   65  clear
+   66  git commit -m "1- TF files added"
+   67  git config --global user.email "umeraziz786@yahoo.com"
+   68  git config --global user.name "umer"
+   69  git commit -m "1- TF files added"
+   70  clear
+   71  git status
+   72  git branch
+   73  git remote add origin https://github.com/umerazizrana/technical_guftgu.git
+   74  git remote -v
+   75  git push --all origin
+   76  history
+   77  history > git
